@@ -5,7 +5,10 @@ public class ReverseInteger {
     public static void main(String[] args) {
         int x = -2147483648; // 0
 
-        int reversedInt = reverseInteger(x);
+        // +2147483647
+
+        ReverseIntegerTry1 reverseIntegerTry1 = new ReverseIntegerTry1();
+        int reversedInt = reverseIntegerTry1.reverseInteger(x);
         System.out.println("Reversed integer of " + x + " is " + reversedInt);
     }
 
